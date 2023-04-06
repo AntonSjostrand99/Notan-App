@@ -60,17 +60,19 @@ section {
     position: absolute;
     top: 10px;
     transition: all 0.5s;
+    
 }
 
 .form__input:focus ~ .form__label,
 .form__input:valid ~ .form__label {
     top: -5px;
     font-size: 0.7rem;
-    color: #5c29db;
+    color: #3c6e71;
 }
 
 .form__input:focus {
-    border-color: #5c29db;
+    border-color: #3c6e71;
+ 
 }
 
 .form__button {
@@ -87,6 +89,7 @@ section {
 .show-sum {
     display: flex;
     justify-content: center;
+
 }
 
 .hide {
